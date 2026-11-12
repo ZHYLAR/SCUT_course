@@ -1,6 +1,6 @@
 # 华南理工大学硕/博士课程论文 LaTeX 模板
 
-按研究生院现行《研究生课程论文》Word 模板更新。首页、说明和正文示例与官方模板一致。模板参考了 [maoruimas](https://www.cnblogs.com/maoruimas/p/12774996.html) 和 [mengchaoheng/SCUT_course](https://github.com/mengchaoheng/SCUT_course)。
+按研究生院现行《研究生课程论文》Word 模板更新。首页、说明和正文示例与官方模板一致。官方模板见[研究生院下载页](https://www2.scut.edu.cn/graduate/2018/0111/c14708a249678/page.htm)。模板基于 [mengchaoheng/SCUT_course](https://github.com/mengchaoheng/SCUT_course)。
 
 ## 编译
 
