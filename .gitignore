@@ -23,3 +23,15 @@
 *.fdb_latexmk
 *.fls
 .DS_Store
+
+# 编译产物与说明文档
+*.pdf
+*.hd
+
+# Word 临时文件和旧封面
+~$*
+*.doc
+*.docx
+
+# 已弃用的示例图
+Fig/Fig1.eps
