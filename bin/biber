@@ -1,0 +1,11 @@
+#!/bin/sh
+# macOS 自带 lipo 已不再接受 biber 启动时使用的 -extract_family。
+# 先拆出 arm64 可执行文件再运行。
+REAL="/Library/TeX/texbin/biber"
+CACHE="${HOME}/Library/Caches/scut-course-biber/biber"
+mkdir -p "$(dirname "$CACHE")"
+if [ ! -x "$CACHE" ] || [ "$REAL" -nt "$CACHE" ]; then
+  lipo "$REAL" -thin arm64 -output "$CACHE"
+  chmod +x "$CACHE"
+fi
+exec "$CACHE" "$@"

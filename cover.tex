@@ -1,0 +1,65 @@
+% 新版研究生课程论文首页与说明
+\newgeometry{left=3cm,right=2.5cm,top=2.5cm,bottom=2cm,headheight=1.5cm,footskip=1cm}
+\NewCommandCopy{\coveroldCJKecglue}{\CJKecglue}
+\xeCJKsetup{CJKecglue={}}
+\linespread{1}\selectfont
+\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=9.91cm]{Fig/scut-logo.png}\\[1.6em]
+{\heiti\fontsize{22pt}{28pt}\selectfont\bfseries
+研\hspace{0.45em}究\hspace{0.45em}生\hspace{0.45em}课\hspace{0.45em}程\hspace{0.45em}论\hspace{0.45em}文}
+\end{center}
+\vspace{1.8em}
+\begin{center}
+{\heiti\fontsize{18pt}{24pt}\selectfont\bfseries \papertitle}\\[0.9em]
+{\fangsong\fontsize{16pt}{22pt}\selectfont\bfseries 研究生：\paperauthor}
+\end{center}
+\vspace{1.6em}
+{\songti\bfseries\xiaosihao
+\noindent 提交日期：\submitdate\hfill 研究生签名：\hspace{3.2em}\par}
+\vspace{0.45em}
+{\songti\bfseries\xiaosihao
+\renewcommand{\arraystretch}{1.55}
+\noindent
+\begin{tabularx}{\textwidth}{|c|X|c|X|}
+\hline
+学\hspace{1.5em}号 & \studentid & 学\hspace{1.5em}院 & \college \\
+\hline
+课程编号 & \coursecode & 课程名称 & \coursename \\
+\hline
+学位类别 & \degreetype & 任课教师 & \teacher \\
+\hline
+学习形式 & \studyform & 学\hspace{1.5em}期 & \semester \\
+\hline
+\multicolumn{4}{|l|}{%
+\parbox[t][9.6cm][t]{\dimexpr\textwidth-2\tabcolsep-2\arrayrulewidth\relax}{教师评语：}} \\
+\hline
+\multicolumn{4}{|l|}{%
+成绩评定：\hspace{1.5em}分\hspace{3.2em}任课教师签名：\hspace{3.6em}年\hspace{1.1em}月\hspace{1.1em}日} \\
+\hline
+\end{tabularx}
+}
+\clearpage
+\thispagestyle{empty}
+\vspace*{1.2em}
+\begin{center}
+{\songti\bfseries\fontsize{16pt}{22pt}\selectfont 说\hspace{1em}明}
+\end{center}
+\vspace{1.2em}
+{\songti\fontsize{15pt}{22.5pt}\selectfont
+\setlength{\parindent}{2em}
+\indent 1、课程论文要有题目、作者姓名、摘要、关键词、正文及参考文献。论文题目由研究生结合课程所学内容选定；摘要500字以下，博士生课程论文要求有英文摘要；关键词3～5个；参考文献不少于10篇，并应有一定的外文文献。
+
+\indent 2、课程论文须由本人独立撰写，不得抄袭、剽窃、代写，不得使用人工智能工具或软件生成内容。若发现存在上述行为，按作弊处理，本门课程考核成绩计0分。
+
+\indent 3、课程论文用A4纸双面打印。字体全部用宋体简体，题目要求用小二号字加粗，标题行要求用小四号字加粗，正文内容要求用小四号字；经学院同意，课程论文可以用英文撰写，字体全部用Times New Roman，题目要求用18号字加粗；标题行要求用14号字加粗，正文内容要求用12号字；行距为2倍行距（方便教师批注）；页边距左为3cm、右为2cm、上为2.5cm、下为2.5cm；其它格式请参照学位论文要求。
+
+\indent 4、学位类别按博士、硕士填写，学习形式按全日制、非全日制填写。
+
+\indent 5、篇幅、内容等由任课教师提出具体要求。
+}
+\clearpage
+\RenewCommandCopy{\CJKecglue}{\coveroldCJKecglue}
+\restoregeometry
+\linespread{2}\selectfont
+\pagestyle{fancy}
